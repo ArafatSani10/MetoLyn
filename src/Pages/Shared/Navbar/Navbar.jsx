@@ -10,18 +10,18 @@ const Navbar = () => {
     const closeMenu = () => setMenuOpen(false); // Close the menu
 
     return (
-        <div className='w-full mx-auto border bg-base-100 shadow-2xl'>
+        <div className='lg:w-[1300px] mx-auto  border bg-base-100 shadow-2xl'>
             <div className='flex items-center justify-between px-5 py-3'>
                 {/* Logo */}
                 <div className='logo'>
-                    <img className='w-[250px]  max-sm:-mx-10 ' src="https://i.ibb.co/qMTjvY01/Screenshot-2025-02-28-152421.png" alt="Logo" />
+                    <img className='w-[350px]  max-sm:-mx-10 ' src="https://i.ibb.co/qMTjvY01/Screenshot-2025-02-28-152421.png" alt="Logo" />
                 </div>
 
                 {/* Menu for larger screens */}
                 <ul className='hidden lg:flex gap-10 p-3'>
                     <li className='text-2xl'>
                         <span className='font-bold font-oswald space-x-2'>FREE</span>
-                        <span className='font-oswald opacity-95'>Bounces</span>
+                        <span className='font-oswald opacity-95'> Bounces</span>
                     </li>
                     <li className='text-2xl font-oswald opacity-95'>About</li>
                     <li className='text-2xl font-oswald opacity-95'>Ingredients</li>
