@@ -1,0 +1,14 @@
+/* Add this to your CSS file */
+@media (max-width: 768px) {
+    /* Reorder Most Popular to come first on smaller screens */
+    .most-popular-card {
+      order: -1;
+    }
+  }
+
+  
+  /* Card hover effect */
+.card:hover {
+    transform: scale(1.05);  /* Scales the card to 105% of its original size */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
