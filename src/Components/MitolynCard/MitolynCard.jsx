@@ -70,6 +70,12 @@ const MitolynCard = () => {
                                                 </span>
                                                 <h1 className="font-bold font-oswald md:text-3xl max-sm:text-sm">2 FREE BONUSES!</h1>
                                             </div>
+                                            <div className="flex items-center justify-center mt-3">
+                                                <span className="">
+                                                    <MdDone className="w-8 h-8 border bg-red-700 text-white rounded-full" size={20}></MdDone>
+                                                </span>
+                                                <h1 className="font-bold font-oswald md:text-3xl max-sm:text-sm"> FREE US SHIPPING!</h1>
+                                            </div>
                                             <button className="flex items-center mx-auto border-2 p-3 max-sm:p-1 bg-yellow-400 shadow-lg rounded-xl mt-4">
                                                 <p className="text-2xl max-sm:text-[17px] max-sm:h-10 max-sm:w-16 mt-3 text-gray-700 mx-6">BUY NOW</p>
                                                 <span className="md:w-12 md:h-12 max-sm:w-8 max-sm:h-8 rounded-full bg-blue-400 flex items-center justify-center">
