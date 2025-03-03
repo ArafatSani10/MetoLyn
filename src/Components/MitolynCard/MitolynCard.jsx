@@ -6,15 +6,16 @@ import { MdDone } from 'react-icons/md';
 const MitolynCard = () => {
     return (
         <div className="font-oswald">
-            <div className="text-center bg-orange-600 text-white p-8">
+            <div className="text-center bg-orange-600 text-white  p-8">
                 <h1 className="text-2xl md:text-4xl font-bold">Claim Your Discounted Mitolyn</h1>
                 <span className="block mt-2 text-2xl md:text-4xl font-bold">Below For Huge Saving</span>
             </div>
 
-            <div className="lg:w-[1200px] mx-auto px-4 mt-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className='bg-gray-200 p-4'>
+          <div className="lg:w-[1200px] mx-auto px-4 mt-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
                     {/* BASIC Plan */}
-                    <div className="w-full max-sm:flex max-sm:items-center max-sm:justify-between">
+                    <div className="w-full max-sm:flex max-sm:items-center max-sm:justify-between ">
                         <div className="max-sm:flex-col w-full">
                             <div className="card bg-white border-2 border-gray-300 shadow-lg rounded-lg p-6 flex flex-col w-full">
                                 <h1 className="bg-gray-500 text-white text-xl text-center py-2 rounded-lg w-full">BASIC</h1>
@@ -127,6 +128,7 @@ const MitolynCard = () => {
                     </div>
                 </div>
             </div>
+          </div>
         </div>
     );
 };
