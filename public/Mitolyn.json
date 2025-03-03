@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "productImage": "https://i.ibb.co.com/Y4nZXQtq/Screenshot-2025-03-03-193348.png",
+      "productName": "Maqui Berry",
+      "description": "exotic purple fruit packed full of the special antioxidant anthocyanim.",
+      "titles": [
+        "Promotes mitochondria",
+        "Support a healthy heart",
+        "Support healthy cholesterol"
+      ]
+    },
+    {
+      "id": 2,
+      "productImage": "https://i.ibb.co.com/r2TjbHRV/Screenshot-2025-03-03-193826.png",
+      "productName": "Rhodiola",
+      "description": "adaptogen bursting with over 140 polyphenols like rosavin and salidroside.",
+      "titles": [
+        "Promotes mitochondria",
+        "Reduces street & improves mood",
+        "Support brain health"
+      ]
+    },
+    {
+      "id": 3,
+      "productImage": "https://i.ibb.co.com/ycVdPpKB/Screenshot-2025-03-03-213209.png",
+      "productName": "Heamatococcus",
+      "description": "Unique red algae crammed full of the mighty red antioxidant astaxanthin.",
+      "titles": [
+        "Promotes mitochondria",
+        "Support healthy joints",
+        "Supports immune response"
+      ]
+    },
+    {
+      "id": 4,
+      "productImage": "https://i.ibb.co.com/kVJysNZx/Screenshot-2025-03-03-213455.png",
+      "productName": "Amla",
+      "description": "Special fruit rich in flavonoids, antioxidants and essentials nutrients",
+      "titles": [
+        "Promotes mitochondria",
+        "Support healthy digestion",
+        "Supports vision"
+      ]
+    },
+    {
+      "id": 5,
+      "productImage": "https://i.ibb.co.com/WZWrwHp/Screenshot-2025-03-03-213721.png",
+      "productName": "Theobroma Cacao",
+      "description": "Tropical superfood overflowing with epictechin - a natural flavonoid.",
+      "titles": [
+        "Promotes mitochondria",
+        "Support a Liver health",
+        "Maintain skin elasticity"
+      ]
+    },
+    {
+      "id": 6,
+      "productImage": "https://i.ibb.co.com/bgVDL24m/Screenshot-2025-03-03-215436.png",
+      "productName": "Schisandra",
+      "description": "Powerfull calorie-burning red burries birimming with antioxidant compounds",
+      "titles": [
+        "Promotes mitochondria",
+        "Support healthy blood pressure",
+        "Natural aphrodisiac"
+      ]
+    }
+  ]
+  
