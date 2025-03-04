@@ -5,13 +5,13 @@ const FetchMitolyn = () => {
     const [metolyn, setMitolyn] = useState([]);
 
     useEffect(() => {
-        fetch('/Mitolyn.json')  
-        .then(res => res.json()) 
-        .then(data => {
-            setMitolyn(data);
-          
-        })
-       
+        fetch('/Mitolyn.json')
+            .then(res => res.json())
+            .then(data => {
+                setMitolyn(data);
+
+            })
+
     }, []);
 
     return (
@@ -21,12 +21,12 @@ const FetchMitolyn = () => {
                 <p className="md:text-4xl">A Unique proprietary blend of 6 rare ingredients that promote <br /></p>
                 <p className="md:text-3xl"><span className="font-bold">Calorie-burning</span> Mitochondria!</p>
 
-           
-               <div className="grid grid-cols-2 md:grid-cols-3 ">
-               {
-                    metolyn.map(mitolyn => <FetchMitolynCard mitolyn={mitolyn}></FetchMitolynCard>)
-                }
-               </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 ">
+                    {
+                        metolyn.map(mitolyn => <FetchMitolynCard mitolyn={mitolyn}></FetchMitolynCard>)
+                    }
+                </div>
             </div>
         </div>
     );

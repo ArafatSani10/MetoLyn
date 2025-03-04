@@ -8,6 +8,8 @@ import HarvardScientist from '../../Components/HarvardScientist/HarvardScientist
 import Mitolyn from '../../Components/Mitolyn/Mitolyn';
 import FetchMitolyn from '../../Components/FetchMitolyn/FetchMitolyn';
 import LikeSection from '../../Components/LikeSection/LikeSection';
+import MitolynUser from '../../Components/MitolynUser/MitolynUser';
+import Faq from '../../Components/Faq/Faq';
 
 const Home = () => {
     return (
@@ -21,6 +23,10 @@ const Home = () => {
             <Mitolyn></Mitolyn>
             <FetchMitolyn></FetchMitolyn>
             <LikeSection></LikeSection>
+            <MitolynUser></MitolynUser>
+            <MitolynCard></MitolynCard>
+            <MoneyGuarantee></MoneyGuarantee>
+            <Faq></Faq>
         </div>
     );
 };
