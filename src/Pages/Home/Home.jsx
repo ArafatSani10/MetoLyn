@@ -11,6 +11,7 @@ import LikeSection from '../../Components/LikeSection/LikeSection';
 import MitolynUser from '../../Components/MitolynUser/MitolynUser';
 import Faq from '../../Components/Faq/Faq';
 import References from '../../Components/References/References';
+import Footer from '../Shared/Footer/Footer';
 
 const Home = () => {
     return (
@@ -30,6 +31,7 @@ const Home = () => {
             <Faq></Faq>
             <MitolynCard></MitolynCard>
             <References></References>
+            <Footer></Footer>
           
         </div>
     );

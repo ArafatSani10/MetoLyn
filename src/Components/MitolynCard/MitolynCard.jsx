@@ -40,6 +40,8 @@ const MitolynCard = () => {
                                             </span>
                                         </button>
                                     </div>
+
+                                    
                                 </div>
                             </div>
                         </div>
