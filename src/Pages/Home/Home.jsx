@@ -10,6 +10,7 @@ import FetchMitolyn from '../../Components/FetchMitolyn/FetchMitolyn';
 import LikeSection from '../../Components/LikeSection/LikeSection';
 import MitolynUser from '../../Components/MitolynUser/MitolynUser';
 import Faq from '../../Components/Faq/Faq';
+import References from '../../Components/References/References';
 
 const Home = () => {
     return (
@@ -27,6 +28,9 @@ const Home = () => {
             <MitolynCard></MitolynCard>
             <MoneyGuarantee></MoneyGuarantee>
             <Faq></Faq>
+            <MitolynCard></MitolynCard>
+            <References></References>
+          
         </div>
     );
 };
