@@ -10,7 +10,7 @@ const Faq = () => {
     };
 
     return (
-       <div className='bg-gradient-to-r from-blue-800 via-blue-400 to-blue-900 py-12'>
+       <div id='faq' className='bg-gradient-to-r from-blue-800 via-blue-400 to-blue-900 py-12'>
             <h1 className='font-oswald font-bold text-center md:text-4xl text-2xl text-white'>
                 Frequently Asked Questions
             </h1>

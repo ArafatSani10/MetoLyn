@@ -15,7 +15,7 @@ const FetchMitolyn = () => {
     }, []);
 
     return (
-        <div className="lg:w-[1200px] mx-auto">
+        <div id='card' className="lg:w-[1200px] mx-auto">
             <div className="text-center font-oswald mt-5 space-y-2">
                 <h3 className="md:text-5xl text-3xl text-blue-300">Inside every Mitolyn capsule You'll find :</h3>
                 <p className="md:text-4xl">A Unique proprietary blend of 6 rare ingredients that promote <br /></p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const HarvardScientist = () => {
     return (
-        <div className='mt-5 my-5 px-4'>
+        <div id='About' className='mt-5 my-5 px-4'>
             <div className='max-w-[1200px] mx-auto'>
                 {/* Heading Section */}
                 <div>

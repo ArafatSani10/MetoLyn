@@ -10,7 +10,7 @@ const Navbar = () => {
     const closeMenu = () => setMenuOpen(false); // Close the menu
 
     return (
-        <div className="mx-auto  sm:w-full md:w-full lg:w-[1300px] bg-base-100 shadow-2xl">
+        <div className="sticky top-0 z-50 mx-auto sm:w-full md:w-full lg:w-full bg-base-100 shadow-2xl">
             <div className="flex items-center justify-between px-6 py-4">
                 {/* Logo */}
                 <div className="logo">
@@ -23,10 +23,10 @@ const Navbar = () => {
 
                 {/* Menu for larger screens (Laptop/Desktop) */}
                 <ul className="hidden lg:flex gap-12 text-xl lg:text-2xl">
-                    <li className="font-bold font-oswald opacity-95 hover:opacity-100 cursor-pointer">FREE Bounces</li>
-                    <li className="font-oswald opacity-95 hover:opacity-100 cursor-pointer">About</li>
-                    <li className="font-oswald opacity-95 hover:opacity-100 cursor-pointer">Ingredients</li>
-                    <li className="font-oswald opacity-75 hover:opacity-100 cursor-pointer">FAQ</li>
+                    <a href="#Bonuses"> <li className="font-bold font-oswald opacity-95 hover:opacity-100 cursor-pointer">FREE Bounces</li></a>
+                    <a href="#About"><li className="font-oswald opacity-95 hover:opacity-100 cursor-pointer">About</li></a>
+                    <a href="#card"><li className="font-oswald opacity-95 hover:opacity-100 cursor-pointer">Ingredients</li></a>
+                    <a href="#faq"> <li className="font-oswald opacity-75 hover:opacity-100 cursor-pointer">FAQ</li></a>
                 </ul>
 
                 {/* "Order Now" Button for Desktop */}
@@ -63,11 +63,11 @@ const Navbar = () => {
                     {/* Close icon inside mobile menu */}
                     <IoMdClose className="text-3xl cursor-pointer" onClick={closeMenu} />
                 </div>
-                <ul className="flex flex-col gap-6 mt-5">
-                    <li className="text-2xl font-oswald cursor-pointer">FREE Bounces</li>
-                    <li className="text-2xl font-oswald cursor-pointer">About</li>
-                    <li className="text-2xl font-oswald cursor-pointer">Ingredients</li>
-                    <li className="text-2xl font-oswald cursor-pointer">FAQ</li>
+                <ul className="flex text-xl flex-col gap-6 mt-5">
+                    <a href="#Bonuses"> <li className="font-bold font-oswald opacity-95 hover:opacity-100 cursor-pointer">FREE Bounces</li></a>
+                    <a href="#About"><li className="font-oswald opacity-95 hover:opacity-100 cursor-pointer">About</li></a>
+                    <a href="#card"><li className="font-oswald opacity-95 hover:opacity-100 cursor-pointer">Ingredients</li></a>
+                    <a href="#faq"> <li className="font-oswald opacity-75 hover:opacity-100 cursor-pointer">FAQ</li></a>
                 </ul>
             </div>
         </div>

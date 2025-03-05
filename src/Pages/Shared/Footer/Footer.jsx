@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='container mx-auto bg-gradient-to-r mt-10 from-blue-800 via-blue-400 to-blue-900 px-4 sm:px-6 lg:px-8'>
             {/* Navigation Links */}
-            <div className='font-oswald items-center justify-center gap-6 text-white sm:gap-10 md:gap-20 py-5 flex flex-wrap lg:w-[1200px] mx-auto'>
+            <div className='font-oswald items-center justify-center gap-6 text-white sm:gap-10 md:gap-40 py-5 flex flex-wrap lg:w-[1200px] mx-auto'>
                 <h1 className='text-sm sm:text-base md:text-lg hover:text-gray-200 cursor-pointer'>Get started</h1>
                 <h1 className='text-sm sm:text-base md:text-lg hover:text-gray-200 cursor-pointer'>Support</h1>
                 <h1 className='text-sm sm:text-base md:text-lg hover:text-gray-200 cursor-pointer'>Terms</h1>

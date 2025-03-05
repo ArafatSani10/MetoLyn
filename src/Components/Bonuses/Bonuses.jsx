@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bonuses = () => {
     return (
-        <div className='bg-gradient-to-r from-blue-800 via-blue-400 to-blue-900 my-3 mt-12 py-8'>
+        <div id='Bonuses' className='bg-gradient-to-r from-blue-800 via-blue-400 to-blue-900 my-3 mt-12 py-8'>
             {/* Title Section */}
             <div className='font-oswald text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl px-4'>
                 <h1 className='text-white'>
