@@ -15,7 +15,7 @@ import Footer from '../Shared/Footer/Footer';
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <Banner></Banner>
             <MitolynCard></MitolynCard>
             <MoneyGuarantee></MoneyGuarantee>

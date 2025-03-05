@@ -14,11 +14,13 @@ const Navbar = () => {
             <div className="flex items-center justify-between px-6 py-4">
                 {/* Logo */}
                 <div className="logo">
+                    <a href="#home">
                     <img
                         className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px]"
                         src="https://i.ibb.co/qMTjvY01/Screenshot-2025-02-28-152421.png"
                         alt="Logo"
                     />
+                    </a>
                 </div>
 
                 {/* Menu for larger screens (Laptop/Desktop) */}
@@ -41,11 +43,11 @@ const Navbar = () => {
                 <div className="lg:hidden flex items-center gap-3">
                     {/* "Order Now" Button for Mobile */}
                     <button
-                        className="font-oswald flex items-center bg-gradient-to-r from-red-500 to-orange-400 text-sm sm:text-xl border-2 p-2 sm:p-5 gap-1 text-white font-bold h-[50px]"
+                        className="font-oswald flex items-center bg-gradient-to-r from-red-500 to-orange-400 text-sm sm:text-sm border-2 p-2 sm:p-2 gap-1 text-white font-bold h-[50px]"
                         onClick={toggleMenu}
                     >
                         Order Now
-                        <span className="flex items-center text-4xl">
+                        <span className="flex items-center text-xl">
                             <WiDirectionRight className="border-2 text-white rounded-full" />
                         </span>
                     </button>

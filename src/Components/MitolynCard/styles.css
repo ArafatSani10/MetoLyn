@@ -6,9 +6,10 @@
     }
   }
 
-  
-  /* Card hover effect */
-.card:hover {
-    transform: scale(1.05);  /* Scales the card to 105% of its original size */
-    transition: transform 0.3s ease; /* Smooth transition */
+  .card-scale {
+    transition: transform 0.3s ease;
+}
+
+.card-scale:hover {
+    transform: scale(1.05);
 }
